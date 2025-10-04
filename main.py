@@ -28,7 +28,7 @@ class MyStyleToolDialog(QtWidgets.QDialog):
 		self.buttonLayout = QtWidgets.QHBoxLayout()
 		self.mainLayout.addLayout(self.buttonLayout)
 		self.createButton = QtWidgets.QPushButton('Create')
-		self.cancelButton - QtWidgets.QPushButton('Cancel')
+		self.cancelButton = QtWidgets.QPushButton('Cancel')
 		self.buttonLayout.addWidget(self.createButton)
 		self.buttonLayout.addWidget(self.cancelButton)
 
